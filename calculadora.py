@@ -48,7 +48,7 @@ def main():
             print("Operación no válida. Intente de nuevo.")
             continue
         a = obtener_numero("Ingrese el primer número: ")
-        b = obtener_numero("Ingrese el segundo número: ")
+        b = obtener_numero("Ingrese el segundo número jajaja: ")
         try:
             resultado = calcular(a, b, operacion)
         except ZeroDivisionError as e:
@@ -62,4 +62,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+print ("la mejor calculadora del mundo")
+print( "practica commit")
