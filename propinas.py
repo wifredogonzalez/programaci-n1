@@ -67,3 +67,4 @@ def main():
 
         except:
             print("Error: entrada inválida")
+main()

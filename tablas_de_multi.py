@@ -15,3 +15,5 @@ def tablas_primos(limite):
         if es_primo(i):
             print(f"\nTabla del {i}:")
             tabla(i)
+
+tablas_primos(10)

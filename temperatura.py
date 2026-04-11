@@ -38,3 +38,8 @@ def convertir(valor, origen, destino):
         return celsius_a_rankine(valor)
 
     return None
+
+print(convertir(0, "C", "F"))
+print(convertir(32, "F", "C"))  
+print(convertir(0, "C", "K"))   
+print(convertir(300, "K", "C")) 

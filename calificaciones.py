@@ -33,3 +33,7 @@ def reporte(notas):
     print("Aprobados:", contar_aprobados(notas))
     print("\nHistograma:")
     histograma(notas)
+
+
+notas = [85, 42, 73, 61, 55, 90, 38, 77, 95, 60]
+reporte(notas)

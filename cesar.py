@@ -16,3 +16,13 @@ def descifrar_mensaje(mensaje, desplazamiento):
 def fuerza_bruta(mensaje):
     for i in range(26):
         print(f"{i}: {descifrar_mensaje(mensaje, i)}")
+
+
+mensaje = "hola"
+cifrado = cifrar_mensaje(mensaje, 3)
+
+print("Cifrado:", cifrado)
+print("Descifrado:", descifrar_mensaje(cifrado, 3))
+
+print("\nFuerza bruta:")
+fuerza_bruta(cifrado)

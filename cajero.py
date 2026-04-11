@@ -1,6 +1,6 @@
 def calcular_billetes(monto):
-    if monto % 20 != 0:
-        print("Error: el monto debe ser múltiplo de 20.")
+    if monto % 5 != 0:
+        print("Error: el monto debe ser múltiplo de 5.")
         return None
 
     bQ200 = monto // 200
@@ -22,6 +22,6 @@ def calcular_billetes(monto):
 
     return f"{bQ200}x Q200, {bQ100}x Q100, {bQ50}x Q50, {bQ20}x Q20, {bQ10}x Q10, {bQ5}x Q5"
 
-print(calcular_billetes(380))
+print(calcular_billetes(370))
 
     
