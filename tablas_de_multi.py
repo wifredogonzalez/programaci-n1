@@ -16,4 +16,4 @@ def tablas_primos(limite):
             print(f"\nTabla del {i}:")
             tabla(i)
 
-tablas_primos(10)
+tablas_primos(5)

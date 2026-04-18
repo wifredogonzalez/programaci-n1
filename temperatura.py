@@ -27,7 +27,7 @@ def convertir(valor, origen, destino):
     elif origen != "C":
         return None
 
-    # convertir desde Celsius
+    
     if destino == "C":
         return valor
     elif destino == "F":

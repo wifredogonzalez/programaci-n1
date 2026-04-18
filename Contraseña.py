@@ -44,4 +44,4 @@ def diagnosticar_password(password):
     if not no_tres_iguales(password):
         print("Tiene 3 caracteres iguales seguidos")
 
-diagnosticar_password("MiClaaave1233!")
+diagnosticar_password("miclave")
